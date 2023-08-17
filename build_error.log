@@ -1,0 +1,311 @@
+make[1]: Entering directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+***
+*** The source tree is not clean, please run 'make mrproper'
+*** in /home/xhyvm2/gitwork/clap-linux-la32r-master
+***
+make[1]: *** [/home/xhyvm2/gitwork/clap-linux-la32r-master/Makefile:567: outputmakefile] Error 1
+make[1]: Leaving directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+make: *** [Makefile:220: __sub-make] Error 2
+make[1]: Entering directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+***
+*** Configuration file ".config" not found!
+***
+*** Please run some configurator (e.g. "make oldconfig" or
+*** "make menuconfig" or "make xconfig").
+***
+make[1]: *** [/home/xhyvm2/gitwork/clap-linux-la32r-master/Makefile:722: .config] Error 1
+make[1]: Leaving directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+make: *** [Makefile:220: __sub-make] Error 2
+make[1]: Entering directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+  SYNC    include/config/auto.conf.cmd
+  GEN     Makefile
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTLD  scripts/kconfig/conf
+
+WARNING: unmet direct dependencies detected for PCI_MSI_ARCH_FALLBACKS
+  Depends on [n]: PCI [=n]
+  Selected by [y]:
+  - LOONGARCH [=y]
+
+WARNING: unmet direct dependencies detected for PCI_MSI_ARCH_FALLBACKS
+  Depends on [n]: PCI [=n]
+  Selected by [y]:
+  - LOONGARCH [=y]
+
+WARNING: unmet direct dependencies detected for PCI_MSI_ARCH_FALLBACKS
+  Depends on [n]: PCI [=n]
+  Selected by [y]:
+  - LOONGARCH [=y]
+  GEN     Makefile
+  WRAP    arch/loongarch/include/generated/uapi/asm/kvm_para.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/bpf_perf_event.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/errno.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/fcntl.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/ioctl.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/ipcbuf.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/ioctls.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/mman.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/msgbuf.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/param.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/poll.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/posix_types.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/sembuf.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/setup.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/resource.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/shmbuf.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/siginfo.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/socket.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/sockios.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/stat.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/statfs.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/termbits.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/termios.h
+  WRAP    arch/loongarch/include/generated/uapi/asm/types.h
+  WRAP    arch/loongarch/include/generated/asm/dma-contiguous.h
+  WRAP    arch/loongarch/include/generated/asm/export.h
+  WRAP    arch/loongarch/include/generated/asm/mcs_spinlock.h
+  WRAP    arch/loongarch/include/generated/asm/parport.h
+  WRAP    arch/loongarch/include/generated/asm/early_ioremap.h
+  WRAP    arch/loongarch/include/generated/asm/qrwlock.h
+  WRAP    arch/loongarch/include/generated/asm/qspinlock.h
+  WRAP    arch/loongarch/include/generated/asm/rwsem.h
+  WRAP    arch/loongarch/include/generated/asm/segment.h
+  WRAP    arch/loongarch/include/generated/asm/user.h
+  WRAP    arch/loongarch/include/generated/asm/stat.h
+  WRAP    arch/loongarch/include/generated/asm/fcntl.h
+  WRAP    arch/loongarch/include/generated/asm/ioctl.h
+  WRAP    arch/loongarch/include/generated/asm/ioctls.h
+  UPD     include/config/kernel.release
+  UPD     include/generated/uapi/linux/version.h
+  WRAP    arch/loongarch/include/generated/asm/mman.h
+  WRAP    arch/loongarch/include/generated/asm/msgbuf.h
+  WRAP    arch/loongarch/include/generated/asm/sembuf.h
+  WRAP    arch/loongarch/include/generated/asm/statfs.h
+  WRAP    arch/loongarch/include/generated/asm/shmbuf.h
+  WRAP    arch/loongarch/include/generated/asm/socket.h
+  WRAP    arch/loongarch/include/generated/asm/sockios.h
+  WRAP    arch/loongarch/include/generated/asm/termios.h
+  WRAP    arch/loongarch/include/generated/asm/termbits.h
+  WRAP    arch/loongarch/include/generated/asm/param.h
+  WRAP    arch/loongarch/include/generated/asm/poll.h
+  WRAP    arch/loongarch/include/generated/asm/posix_types.h
+  WRAP    arch/loongarch/include/generated/asm/resource.h
+  WRAP    arch/loongarch/include/generated/asm/kvm_para.h
+  WRAP    arch/loongarch/include/generated/asm/seccomp.h
+  WRAP    arch/loongarch/include/generated/asm/compat.h
+  WRAP    arch/loongarch/include/generated/asm/checksum.h
+  WRAP    arch/loongarch/include/generated/asm/current.h
+  WRAP    arch/loongarch/include/generated/asm/div64.h
+  WRAP    arch/loongarch/include/generated/asm/emergency-restart.h
+  WRAP    arch/loongarch/include/generated/asm/dma-mapping.h
+  WRAP    arch/loongarch/include/generated/asm/ftrace.h
+  WRAP    arch/loongarch/include/generated/asm/irq_work.h
+  WRAP    arch/loongarch/include/generated/asm/kprobes.h
+  WRAP    arch/loongarch/include/generated/asm/kmap_size.h
+  WRAP    arch/loongarch/include/generated/asm/local64.h
+  WRAP    arch/loongarch/include/generated/asm/mmiowb.h
+  WRAP    arch/loongarch/include/generated/asm/module.lds.h
+  WRAP    arch/loongarch/include/generated/asm/msi.h
+  HOSTCC  scripts/genksyms/genksyms.o
+  WRAP    arch/loongarch/include/generated/asm/preempt.h
+  WRAP    arch/loongarch/include/generated/asm/rwonce.h
+  HOSTCC  scripts/bin2c
+  WRAP    arch/loongarch/include/generated/asm/sections.h
+  WRAP    arch/loongarch/include/generated/asm/simd.h
+  YACC    scripts/genksyms/parse.tab.[ch]
+  HOSTCC  scripts/kallsyms
+  LEX     scripts/genksyms/lex.lex.c
+  WRAP    arch/loongarch/include/generated/asm/softirq_stack.h
+  HOSTCC  scripts/sorttable
+  WRAP    arch/loongarch/include/generated/asm/trace_clock.h
+  HOSTCC  scripts/selinux/mdp/mdp
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  HOSTCC  scripts/asn1_compiler
+  WRAP    arch/loongarch/include/generated/asm/unaligned.h
+  WRAP    arch/loongarch/include/generated/asm/vga.h
+  WRAP    arch/loongarch/include/generated/asm/word-at-a-time.h
+  UPD     include/generated/utsrelease.h
+  WRAP    arch/loongarch/include/generated/asm/xor.h
+  HOSTCC  scripts/sign-file
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/insert-sys-cert
+  DESCEND bpf/resolve_btfids
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/genksyms/lex.lex.o
+../scripts/extract-cert.c: In function ‘display_openssl_errors’:
+../scripts/extract-cert.c:46:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   46 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from ../scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c: In function ‘display_openssl_errors’:
+../scripts/sign-file.c:89:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   89 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from ../scripts/sign-file.c:29:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c: In function ‘drain_openssl_errors’:
+../scripts/sign-file.c:102:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  102 |         while (ERR_get_error_line(&file, &line)) {}
+      |         ^~~~~
+In file included from ../scripts/sign-file.c:29:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c: In function ‘read_private_key’:
+../scripts/sign-file.c:142:17: warning: ‘ENGINE_load_builtin_engines’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  142 |                 ENGINE_load_builtin_engines();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:358:28: note: declared here
+  358 | OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c:144:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  144 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+In file included from ../scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+../scripts/sign-file.c:146:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  146 |                 if (ENGINE_init(e))
+      |                 ^~
+In file included from ../scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+../scripts/sign-file.c:151:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  151 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+      |                         ^~~
+In file included from ../scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+../scripts/sign-file.c:153:17: warning: ‘ENGINE_load_private_key’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  153 |                 private_key = ENGINE_load_private_key(e, private_key_name,
+      |                 ^~~~~~~~~~~
+In file included from ../scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:638:11: note: declared here
+  638 | EVP_PKEY *ENGINE_load_private_key(ENGINE *e, const char *key_id,
+      |           ^~~~~~~~~~~~~~~~~~~~~~~
+../scripts/extract-cert.c: In function ‘drain_openssl_errors’:
+../scripts/extract-cert.c:59:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   59 |         while (ERR_get_error_line(&file, &line)) {}
+      |         ^~~~~
+In file included from ../scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+../scripts/extract-cert.c: In function ‘main’:
+../scripts/extract-cert.c:124:17: warning: ‘ENGINE_load_builtin_engines’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  124 |                 ENGINE_load_builtin_engines();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:358:28: note: declared here
+  358 | OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../scripts/extract-cert.c:126:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  126 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+In file included from ../scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+../scripts/extract-cert.c:128:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  128 |                 if (ENGINE_init(e))
+      |                 ^~
+In file included from ../scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+../scripts/extract-cert.c:133:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  133 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+      |                         ^~~
+In file included from ../scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+../scripts/extract-cert.c:134:17: warning: ‘ENGINE_ctrl_cmd’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  134 |                 ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+      |                 ^~~~~~~~~~~~~~~
+In file included from ../scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:450:27: note: declared here
+  450 | OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+      |                           ^~~~~~~~~~~~~~~
+  MKDIR     /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids//libbpf
+  MKDIR     /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids//libsubcmd
+  HOSTCC  /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/fixdep.o
+  GEN     /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/bpf_helper_defs.h
+  HOSTLD  /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/fixdep-in.o
+  LINK    /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/fixdep
+  MKDIR   /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/
+  MKDIR   /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/main.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/rbtree.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/nlattr.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/zalloc.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/string.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/bpf.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/ctype.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/str_error_r.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/btf.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf_errno.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/str_error.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/netlink.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/bpf_prog_linfo.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf_probes.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/xsk.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/exec-cmd.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/hashmap.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/btf_dump.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/ringbuf.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/help.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/strset.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/pager.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/linker.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/parse-options.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/gen_loader.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/run-command.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/sigchain.o
+  CC      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/subcmd-config.o
+  LD      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/resolve_btfids-in.o
+  HOSTLD  scripts/genksyms/genksyms
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  CC      scripts/mod/devicetable-offsets.s
+  LD      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/libsubcmd-in.o
+  AR      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libsubcmd/libsubcmd.a
+  UPD     scripts/mod/devicetable-offsets.h
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/mod/modpost
+  CC      kernel/bounds.s
+  CALL    ../scripts/atomic/check-atomics.sh
+  UPD     include/generated/timeconst.h
+  UPD     include/generated/bounds.h
+  CC      arch/loongarch/kernel/asm-offsets.s
+In file included from ../include/linux/mmzone.h:19,
+                 from ../include/linux/gfp.h:6,
+                 from ../include/linux/xarray.h:14,
+                 from ../include/linux/radix-tree.h:19,
+                 from ../include/linux/fs.h:15,
+                 from ../include/linux/compat.h:17,
+                 from ../arch/loongarch/kernel/asm-offsets.c:7:
+../include/linux/page-flags-layout.h:105:2: error: #error "Not enough bits in page flags"
+ #error "Not enough bits in page flags"
+  ^~~~~
+make[2]: *** [../scripts/Makefile.build:117: arch/loongarch/kernel/asm-offsets.s] Error 1
+make[1]: *** [/home/xhyvm2/gitwork/clap-linux-la32r-master/Makefile:1213: prepare0] Error 2
+make[1]: *** Waiting for unfinished jobs....
+  LD      /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf-in.o
+  LINK    /home/xhyvm2/gitwork/clap-linux-la32r-master/la_build/tools/bpf/resolve_btfids/libbpf/libbpf.a
+  LINK     resolve_btfids
+make[1]: Leaving directory '/home/xhyvm2/gitwork/clap-linux-la32r-master/la_build'
+make: *** [Makefile:220: __sub-make] Error 2
